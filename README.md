@@ -13,15 +13,18 @@
 ##
 
 ![scrrenshot-web](https://user-images.githubusercontent.com/92763302/226197101-dbddf431-eae1-476c-9392-4aa33480d1ef.png)
->Versão para desktop
+> Versão para desktop
 
 ![scrrenshot-mobile](https://user-images.githubusercontent.com/92763302/226197130-80ad27c9-0f66-4b00-ab41-a7e526110417.png)
->Versão mobile
+> Versão mobile
 
 ## 🎁 Expressões de gratidão
 
-* Inspiração paraa fazer esse readme: <a href="https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89" target="_blank">https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89</a>;
-
+* Inspiração para fazer esse readme: <a href="https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89" target="_blank">https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89</a>;
+* Sites que usei para consultas:
+	* [DevMedia](https://www.devmedia.com.br/artigos/)
+	* [Alura](https://www.alura.com.br/artigos)
+	* [Treinaweb](https://www.alura.com.br/artigos)
 <h4 align="center"> 
 	Feito com ❤️ por Eduarda Isabelle👋🏽 Entre em contato!
 </h4>
