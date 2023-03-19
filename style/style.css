@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 60px 90px 0 90px;
+}
+
+header p {
+    font: 700 24px 'Inconsolata', monospace;
+    color: #333333;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+} 
+
+section {
+    display: flex;
+    justify-content: space-around;  
+}
+
+section .imgBox {
+    width: 70em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+section .imgBox img{
+    width: 70%;
+}
+
+section .textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+section .textBox h1 {
+    font: bold 55px 'Space Mono', monospace;
+    letter-spacing: -0.035em;
+    line-height: 95px;
+    color: #333333;
+    padding-top: -20px;
+}
+
+section .textBox p {
+    font: normal 19px 'Space Mono', monospace;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    text-align: justify;
+    padding: 40px 0 60px 0;
+}
+
+button {
+    color: white;
+    background-color: #333333;
+    font: 600 13px 'Space Mono', monospace;
+    letter-spacing: -0.030em;
+    text-transform: uppercase;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #333333;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+    font: 500 14px 'Montserrat', sans-serif;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+
+footer p>a {
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+footer p>a:hover {
+    text-decoration: underline;
+}
+
+
+@media all and (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    section .textBox h1 {
+        font-size: 40px;
+        line-height: 65px;
+        padding: 7px 0 15px 0;
+    }
+
+    section .textBox p {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 0 40px 0;
+    }
+
+    
+}
